@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GREP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GREP_jar</output-path>
+    <root id="archive" name="GREP.jar">
+      <element id="module-output" name="GREP" />
+      <element id="extracted-dir" path="E:/IDEA/args4j-2.33.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
