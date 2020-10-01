@@ -11,11 +11,11 @@ import java.util.List;
 public class CommandLineArgument {
 
     @Option(name="-v",usage="3")
-    public Boolean inv;
+    public Boolean inv = false;
     @Option(name="-r", usage="1", forbids = "-i")
-    public Boolean regex;
+    public Boolean regex = false;
     @Option(name="-i",usage="2")
-    public Boolean ins;
+    public Boolean ins = false;
 
     @Argument(required = true, usage = "4")
     public String word;
